@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app='app'>
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+
+	<title>CCU-ANEXOS</title>
+
+	<script src='components/jquery/dist/jquery.min.js'></script>
+
+	<link  href='/stylesheets/style.css' rel='stylesheet'/>
+	<link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
+	<link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+	<script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-aria/angular-aria.js"></script> 
+    <script src="/bower_components/angular-animate/angular-animate.js"></script> 
+    <script src="/bower_components/angular-material/angular-material.js"></script> 
+    <script src="/bower_components/moment/moment.js"></script> 
+   	<script src='components/angular-route/angular-route.min.js'></script>
+	<script src='components/bootstrap/dist/js/bootstrap.min.js'></script>
+	<script src='/javascripts/app.js'></script>
+
+	<!-- auto -->
+	<script src='/template_inserir/inserirController.js'></script>
+	
+	<!-- login -->
+	<script src='/template_login/loginController.js'></script>
+
+	<!-- directives -->
+	<script src='/directives/headerDirective.js'></script>
+
+	<!-- services -->
+	<script src='/services/agentesService.js'></script>
+	<script src='/services/authService.js'></script>
+	<script src='/services/loginService.js'></script>
+
+
+	<!-- factorys -->
+	<script src='/factorys/interFactory.js'></script>
+
+
+</head>
+<body id="body-m">
+<div ng-view></div>
+</body>
+</html>
